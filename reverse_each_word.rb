@@ -3,11 +3,11 @@ def reverse_each_word(string)
 split_up=string.split
 new_array=[]
 
-split_up.each do |thing|
-  new_array.push(thing.reverse)
+return()
+split_up.collect do |thing|
+  thing.reverse
 end
-
-return new_array.join(" ")
+)
 
 
 end
